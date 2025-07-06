@@ -34,20 +34,20 @@ Users can search and view where and when an object was last seen with a single c
 
     ObjectLogger-AI/
     │
-    ├── main.py                # Main controller script
+    ├── main.py                 # Main controller script
     ├── detection/
-    │ └── detector.py         # Object detection logic (YOLOv8)
+    │   └── detector.py         # Object detection logic (YOLOv8)
     ├── tracking/
-    │ └── tracker.py          # Object tracking logic (Deep SORT)
+    │   └── tracker.py          # Object tracking logic (Deep SORT)
     ├── logs/
-    │ ├── key/
-    │ │ ├── last_seen.jpg
-    │ │ └── meta.json
-    │ └── phone/
-    │ ├── last_seen.jpg
-    │ └── meta.json
+    │   ├── key/
+    │   │   ├── last_seen.jpg
+    │   │   └── meta.json
+    │   └── phone/
+    │       ├── last_seen.jpg
+    │       └── meta.json
     └── gui/
-    └── search_interface.py   # Optional GUI for searching objects
+        └── search_interface.py   # Optional GUI for searching objects
 
 ---
 
