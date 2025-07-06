@@ -48,8 +48,6 @@ Users can search and view where and when an object was last seen with a single c
     │ └── meta.json
     └── gui/
     └── search_interface.py # Optional GUI for searching objects
----
-
 
 ---
 
